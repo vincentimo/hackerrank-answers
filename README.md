@@ -1,2 +1,2 @@
-# hackerrank-answers
-Stores my answers for HackerRank
+# HackerRank Answers
+Stores my answers for [HackerRank](https://www.hackerrank.com).
