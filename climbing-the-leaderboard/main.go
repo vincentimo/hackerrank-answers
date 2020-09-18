@@ -43,10 +43,10 @@ func climbingLeaderboard(ranked []int32, player []int32) []int32 {
   // Calculate the player's rank
   for i := 0; i < len(player); i++ {
     for player[i] > ai32DistinctRank[j] {
-      if j == 0 {
-        break
-      } else {
+      if j > 0 {
         j--
+      } else { // j == 0
+        break
       }
     }
     if player[i] < ai32DistinctRank[j] {
